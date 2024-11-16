@@ -6,7 +6,12 @@ class Repairs(models.Model):
     installation_date = fields.Date(string= "Installation Date")
     failure_date= fields.Date(string="Failure Date")
     time_to_failure= fields.Float(string="Time To Failure (Months)", compute='_number_of_months', store= True)
+    marca = fields.Char(string="marca")
+    modelo = fields.Char(string="modelo")
+    cor = fields.Char(string="cor")
+    acessorio = fields.Char(string="acessorio")
     serial_number =fields.Char(string="Serial Number")
+    defeito = fields.Char(string="defeito")
     production_batch=fields.Char(string="Production Lot", compute='_production_batch_failure', store= True)
 
     @api.depends("failure_date","installation_date")
