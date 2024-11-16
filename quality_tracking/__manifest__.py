@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "RMA Tracking",
+    'name': "Assistencia Técnica",
 
     'summary': """
-        This module is made for tracking the production quality """,
+        Módulo com função Marca, modelo e número de serie dos aparelhos """,
 
     'description': """
         This module helps to track the number of repaired products per production batch 
     """,
 
-    'author': "Noura JAMAL",
-    'website': "https://www.linkedin.com/in/noura-jamal-1b846b1b8/",
+    'author': "Tonny Barros",
+    'website': "https://www.tectonny.com.br",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/16.0/odoo/addons/base/data/ir_module_category_data.xml
